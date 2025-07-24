@@ -15,6 +15,7 @@ div.content{
   max-width: 40rem;
   height: 15rem;
   padding: 1rem;
+  padding-bottom: 4rem;
   justify-items: center;
   border-radius: 2rem;
   box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.411);
@@ -46,6 +47,7 @@ input[type=number] {
   padding: 1rem 2rem;
   border-radius: 10px;
   outline: none;
+  width: 12vw;
 }
 
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
