@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Adivinhe o número do dia!</h1>
+        <h3>Adivinhe um  número de 1 a 100</h3>
+        <h3 id="Tentativas">Tentativas: </h3>
+        <div class="inputs">
+            <input type="number" id="numeroTentativa">
+            <input type="button" value="Enviar" onclick="verificarNumero()" id="botaoEnviar">
+            <div id="repetir"></div>
+        </div>
+        <div id="respostaBloco"></div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
